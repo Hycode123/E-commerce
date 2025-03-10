@@ -1,101 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Swoo Tech Mart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="single.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="container">
-      <!-- <div></div> -->
-      <header class="header">
-        <div class="top-nav">
-          <div class="top-box">
-            <ul class="line">
-              <li><a class="lines" href="">Hotline 24/7</a></li>
-              <li><a class="lines" href=""> (025) 3886 25 16</a></li>
-            </ul>
-          </div>
-          <div class="left-nav">
-            <ul class="line">
-              <li><a class="lines" href="">Sell on Swoo</a></li>
-              <li><a class="lines" href="">Order Tracking</a></li>
-            </ul>
-            <div class="line">
-              <p class="line-txt">USD &or;</p>
-              <p class="line-txt">&vert;</p>
-              <p class="line-txt">
-                <img src="usa.png.png" alt="usa" /> Eng &or;
-              </p>
-            </div>
-          </div>
+<body>
+
+    <!-- Top Navbar -->
+    <nav class="top-navbar d-flex justify-content-between align-items-center px-4 py-2">
+        <span>Hotline 24/7 <strong>(025) 3886 25 16</strong></span>
+        <div>
+            <a href="#">Sell on Swoo</a> |
+            <a href="#">Order Tracking</a> |
+            <span>USD <i class="fa fa-chevron-down"></i></span> |
+            <img src="https://cdn.vectorstock.com/i/1000v/53/98/usa-flag-circle-logo-vector-18915398.jpg" alt="usa-logo"
+                width="20">
+            <span>Eng <i class="fa fa-chevron-down"></i></span>
+
+
         </div>
-        <div class="logo-box">
-          <div><img src="logo.png.png" alt="" /></div>
-          <div>
-            <ul class="nav-list">
-              <li><a class="nav-links" href="">Home &or;</a></li>
-              <li><a class="nav-links" href="">About &or;</a></li>
-              <li><a class="nav-links" href="">Single &or;</a></li>
-              <li><a class="nav-links" href="">Products &or;</a></li>
-            </ul>
-          </div>
-          <div class="act-box">
-            <div><img src="circle.png" alt="" /></div>
-            <div><img src="circle.png" alt="" /></div>
-            <div><img src="circle.png" alt="" /></div>
-            <div class="act-boxs">
-              <p>WELCOME</p>
-              <a class="nav-links">LOGIN/REGISTER</a>
-            </div>
-            <div class="reg-box tag">
-              <div><img src="circle.png" alt="" /></div>
-              <div class="act-boxs">
-                <p>CART</p>
-                <p class="nav-links">$1,689.00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <div class="sub-header">
-        <div class="search">
-          <div class="search-box">
-            <form class="search-form" action="">
-              <select class="categories" value="">
-                <option value="">All categories</option>
-              </select>
-              <input type="text" placeholder="search anything.... " />
-            </form>
-            <div class="search-cont">
-              <img class="search-icon" src="searchicon.png" alt="" />
-            </div>
-          </div>
-          <p class="search-txt">free shipping over $199</p>
-          <p class="search-txt">30 days money back</p>
-          <p class="search-txt">100% secure payment</p>
-        </div>
-      </div>
+
+    </nav>
+
+    <!-- Main Navbar -->
+    <div class="text-center my-4">
+        <nav class="main-navbar navbar navbar-expand-lg px-4">
+            <a class="navbar-brand" href="#">
+                <img src="./logo.png.png" alt="Swoo Tech Mart" class="logo">
+            </a>
+
+            <a class="nav-link" href="#"> HOMES<i class="fa fa-chevron-down"></i></a>
+            <a class="nav-link" href="#"> PAGES<i class="fa fa-chevron-down"></i></a>
+            <a class="nav-link" href="#"> PRODUCTS<i class="fa fa-chevron-down"></i></a>
+            <a class="nav-link" href="#"> CONTACT<i class="fa fa-chevron-down"></i></a>
 
 
-      <div class=" product-container">
+            <div class="navbar-icons">
+                <i class="fa fa-circle"></i>
+                <i class="fa fa-circle fa-heart"></i>
+                <i class="fa fa-circle"></i>
+                <span class="login-register">
+                    <small>WELCOME</small> <a href="#">LOG IN / REGISTER</a></span>
+                <div class="cart">
+                    <i class="fa fa-circle"><span class="cart-count">5</span></i>
+                    <small>CART</small> <span class="cart-price">$1,689.00</span>
+
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <div class="search-bit">
+        <div class="search-bar">
+            <select class="category-dropdown">
+                <option>All Categories</option>
+                <input type="text" placeholder="Search anything..." class="search-input">
+
+            </select>
+            <button class="search-button"><i class="fa fa-search"></i></button>
+        </div>
+
+        <div class="bottom-navbar">
+            <span>FREE SHIPPING OVER $199</span>
+            <span>30 DAYS MONEY BACK</span>
+            <span>100% SECURE PAYMENT</span>
+        </div>
+    </div>
+
+
+
+    <div class=" product-container">
         <!-- Left: Product Image -->
         <div class="product-image">
-            <img src="./public/3 → prod1.jpg.png" alt="samsung Galaxy X6" class="main-image">
+            <img src="./3 → prod1.jpg.png" alt="samsung Galaxy X6" class="main-image">
             <div class="thumbnail-container">
-                <img src="./public/3 → prod1.jpg.png" alt="Thumbnail" class="thumbnail">
-                <img src="./public/3 → prod2.jpg.png" alt="Thumbnail" class="thumbnail">
-                <img src="./public/3 → prod3.jpg.png" alt="Thumbnail" class="thumbnail">
+                <img src="./3 → prod1.jpg.png" alt="Thumbnail" class="thumbnail">
+                <img src="./3 → prod2.jpg.png" alt="Thumbnail" class="thumbnail">
+                <img src="./3 → prod3.jpg.png" alt="Thumbnail" class="thumbnail">
             </div>
         </div>
 
@@ -115,11 +103,10 @@
                 <span class="badge badge-success">FREE SHIPPING</span>
                 <span class="badge badge-danger">FREE GIFT</span>
             </div>
-            <hr>
 
-            <h4><strong class="colorn">COLOR:</strong> Midnight Blue</h4>
+            <h4>COLOR: Midnight Blue</h4>
             <div class="color-options">
-                <button class="color-btn active" >Midnight Blue <span>$569.00</span></button>
+                <button class="color-btn">Midnight Blue <span>$569.00</span></button>
                 <button class="color-btn">Deep Purple <span>$569.00</span></button>
                 <button class="color-btn">Space Black <span>$569.00</span></button>
             </div>
@@ -134,35 +121,32 @@
 
 
             <div class="promo">
-              <img src="./public/gift.png.png" alt="" class="gifting">
-              <div class="mit">
                 <p><strong>Buy 02 boxes</strong> get a <strong>Snack Tray</strong></p>
                 <p><strong>Buy 04 boxes</strong> get a free <strong>Block Toys</strong></p>
-                </div>
                 <p class="expire">Promotion expires in: <span>9:00pm, 25/5/2024</span></p>
             </div>
 
-            <p><strong class="strong">SKU:</strong>ABC025168</p>
-            <p><strong class="strong">CATEGORY:</strong> Phones & Tablets</p>
-            <p><strong class="strong">BRAND:</strong> <small class="small">sumsong</small></p>
+            <p><strong>SKU:</strong>ABC025168</p>
+            <p><strong>CATEGORY:</strong> Phones & Tablets</p>
+            <p><strong>BRAND:</strong> sumsong</strong></p>
 
 
             <div class="social-images">
-                <img src="./public/footer-social.png" alt="Twitter">
-                <img src="./public/footer-social1.png" alt="facebook">
-                <img src="./public/footer-social2.png" alt="instagram">
-                <img src="./public/footer-social3.png" alt="youtube">
-                <img src="./public/footer-social4.png" alt="Thumbnail">
+                <img src="./assets/Link.png" alt="Twitter">
+                <img src="./assets/Symbol.png" alt="facebook">
+                <img src="./assets/Link (1).png" alt="instagram">
+                <img src="./assets/Symbol (1).png" alt="youtube">
+                <img src="./assets/Symbol (2).png" alt="Thumbnail">
             </div>
         </div>
 
         <!-- Right: Price & Checkout -->
         <div class="checkout-box">
-            <h3 class="tin">Total Price:</h3>
+            <h3>Total Price:</h3>
             <span class="total-price"><strong>$609.00</strong></span>
             <p><strong>Affirm:</strong> $49/m in 12 months. <a href="#">See more</a></p>
 
-            <p class="stock-status"><img src="./public/Symbol (3).png" alt="symbol 3" width="15"> In stock</p>
+            <p class="stock-status"><img src="./Symbol (3).png" alt="symbol 3" width="20"> In stock</p>
             <div class="quantity">
                 <button>-</button>
                 <input type="number" value="1">
@@ -170,14 +154,14 @@
             </div>
 
             <button class="add-to-cart">ADD TO CART</button>
-            <button class="paypal-btn"> BUY WITH<img src="./public/paypal.png.png" alt="payme logo"></button>
-            <p class="wishlist"> <img src="./public/Symbol.png" alt="symbol"> added | <img src="./public/Symbol (1).png"
+            <button class="paypal-btn"> BUY WITH<img src="./paypal.png.png" alt="payme logo"></button>
+            <p class="wishlist"> <img src="./Symbol.png" alt="symbol"> added | <img src="./Symbol (1).png"
                     alt="symbol 1"> compare</p>
 
 
             <div class="secure-checkout">
                 <p>Guaranteed Safe Checkout</p>
-                <img src="./public/pay.png.png" alt="Payment Icons" width="50">
+                <img src="./pay.png.png" alt="Payment Icons" width="50">
             </div>
 
             <div class="quick-order">
@@ -185,7 +169,7 @@
                 <h4>(025) 3886 25 16</h4>
             </div>
 
-            <p class="shipping"><img src="./public/Symbol (2).png" alt="symbol 2"> Ships from <strong>United States</strong>
+            <p class="shipping"><img src="./Symbol (2).png" alt="symbol 2"> Ships from <strong>United States</strong>
             </p>
         </div>
     </div>
@@ -194,40 +178,35 @@
         <div class="row">
             <!-- Left Section: Frequently Bought Together -->
             <div class="col-md-8">
-              <div class="checkout-box">
                 <h4 class="fw-bold">FREQUENTLY BOUGHT TOGETHER</h4>
     
                 <div class="d-flex">
-                  
                     <!-- Product 1 -->
                     <div class="text-center">
-                        <img src="./public/prod1.jpg.png" alt="Phone" class="product-img"> 
-                        
+                        <img src="./prod1.jpg.png" alt="Phone" class="product-img">
                     </div>
     
                     <div class="plus-icon">+</div>
     
                     <!-- Product 2 -->
                     <div class="text-center">
-                        <img src="./public/prod6.jpg.png" alt="Headphones" class="product-img">
+                        <img src="./prod6.jpg.png" alt="Headphones" class="product-img">
                     </div>
     
                     <div class="plus-icon">+</div>
     
                     <!-- Product 3 -->
                     <div class="text-center">
-                        <img src="./public/prod7.jpg.png" alt="Watch" class="product-img faded">
+                        <img src="./prod7.jpg.png" alt="Watch" class="product-img faded">
                     </div>
-<div class="monk">
-                    <h5 class="fw-bold">TOTAL PRICE:</h5>
+
+                    <div class="checkout-box">
+                        <h5 class="fw-bold">TOTAL PRICE:</h5>
                         <h2 class="total-price">$609.00</h2>
-                        <span class="btn-success">
                         <button class="btn btn-success w-100 mt-2">ADD TO CART</button>
-                      </span>
                         <p class="wishlist"><i class="fa-regular fa-heart"></i> Add all to Wishlist</p>
-                      </div>
+                    </div>
                 </div>
-                
     
                 <!-- Product List -->
                 <ul class="product-list mt-3">
@@ -247,20 +226,18 @@
                         <span class="price text-danger">$129.00</span>
                     </li>
                 </ul>
-                <div class="promo-box">
-                  <img src="./public/Main → Section → Link → ban1.png.png" alt="Xbox Sale" class="promo-img" width="250">
-                  <img src="./public/Main → Section → Link → ban2.png.png" alt="iPad Pro Sale" class="promo-img" width="250">
-              </div>
-          </div>
             </div>
-            <div class="col-md-4">
-              <!-- Promotions -->
-              
-          </div>
     
             <!-- Right Section: Price & Add to Cart -->
-
-          </div>
+            
+               
+                <div class="col-md-4">
+                <!-- Promotions -->
+                <div class="promo-box">
+                    <img src="./Main → Section → Link → ban1.png.png" alt="Xbox Sale" class="promo-img">
+                    <img src="./Main → Section → Link → ban2.png.png" alt="iPad Pro Sale" class="promo-img">
+                </div>
+            </div>
         </div>
     </div>
 
@@ -292,7 +269,7 @@
                         <strong>Super AMOLED display*</strong>. With deep contrast, rich colors, and crisp details, you won’t miss a thing.
                     </p>
                     <div class="text-center">
-                        <img src="./public/det1.jpeg.png" alt="Samsung Galaxy Tab S2" class="product-img">
+                        <img src="./det1.jpeg.png" alt="Samsung Galaxy Tab S2" class="product-img">
                     </div>
                     <p class="note">* The Galaxy Tab S2’s 4:3 ratio display provides you with an ideal environment for performing office tasks.</p>
                 </div>
@@ -332,14 +309,12 @@
     </div>
 
     <div class="row mt-4">
-      <div class="img-in">
         <div class="col-md-6">
-            <img src="./public/det2.png.png" class="img-fluid rounded" alt="Person using tablet" width="500">
+            <img src="./det2.png.png" class="img-fluid rounded" alt="Person using tablet">
         </div>
         <div class="col-md-6">
-            <img src="./public/det3.png.png" class="img-fluid rounded" alt="Tablet screen close-up" width="500">
+            <img src="./det3.png.png" class="img-fluid rounded" alt="Tablet screen close-up">
         </div>
-      </div>
     </div>
 
     <div class="row mt-4">
@@ -367,7 +342,7 @@
         <div class="col-md-3 col-sm-6">
             <div class="product-card">
                 <span class="discount-badge">SAVE $199.00</span>
-                <img src="./public/Link → prod26.png.png" class="img-fluid" alt="Product Image">
+                <img src="./Link → prod26.png.png" class="img-fluid" alt="Product Image">
                 <p class="rating">(152)</p>
                 <h6 class="product-title">SROK Smart Phone 128GB, Oled Retina</h6>
                 <p class="price"><span class="current-price">$579.00</span> <span class="old-price">$850.00</span></p>
@@ -380,7 +355,7 @@
         <div class="col-md-3 col-sm-6">
             <div class="product-card">
                 <span class="new-badge">NEW</span>
-                <img src="./public/Link → prod27.png.png" class="img-fluid" alt="Product Image">
+                <img src="./Link → prod27.png.png" class="img-fluid" alt="Product Image">
                 <p class="rating">(152)</p>
                 <h6 class="product-title">aPod Pro Tablet 2023 LTE + Wifi, GPS Cellular 12.9 Inch, 512GB</h6>
                 <p class="price">$979.00 - $1,259.00</p>
@@ -392,16 +367,16 @@
         <!-- Product 3 -->
         <div class="col-md-3 col-sm-6">
             <div class="product-card">
-                <img src="./public/Link → prod28.png.png" class="img-fluid" alt="Product Image">
+                <img src="./Link → prod28.png.png" class="img-fluid" alt="Product Image">
                 <p class="rating">(5)</p>
                 <h6 class="product-title">OPod Pro 12.9 Inch M1 2023, 64GB + Wifi, GPS</h6>
                 <p class="price">$659.00</p>
                 <p class="shippinging">FREE SHIPPING <span class="gift-badge">FREE GIFT</span></p>
                 <p class="stock-status">✅ In stock</p>
 <div class="main-footer">
-<img src="./public/prod26.png.png" alt="prod26">
-<img src="./public/prod28.png.png" alt="prod28">
-<img src="./public/prod29.png.png" alt="prod29">
+<img src="./prod26.png.png" alt="prod26">
+<img src="./prod28.png.png" alt="prod28">
+<img src="./prod29.png.png" alt="prod29">
 
 </div>
             </div>
@@ -412,7 +387,7 @@
         <div class="col-md-3 col-sm-6">
             <div class="product-card">
                 <span class="discount-badge">SAVE $59.00</span>
-                <img src="./public/Link → prod29.png.png" class="img-fluid" alt="Product Image">
+                <img src="./Link → prod29.png.png" class="img-fluid" alt="Product Image">
                 <p class="rating">(9)</p>
                 <h6 class="product-title">Xiamoi Redmi Note 5, 64GB</h6>
                 <p class="price"><span class="current-price">$1,239.00</span> <span class="old-price">$1,619.00</span></p>
@@ -424,7 +399,7 @@
         <!-- Product 5 -->
         <div class="col-md-3 col-sm-6">
             <div class="product-card">
-                <img src="./public/Link → prod30.png.png" class="img-fluid" alt="Product Image">
+                <img src="./Link → prod30.png.png" class="img-fluid" alt="Product Image">
                 <p class="rating">(8)</p>
                 <h6 class="product-title">Microsoft Alpha Ultra S5 Surface 128GB 2022, Silver</h6>
                 <p class="price">$1,729.00</p>
@@ -433,14 +408,14 @@
 
 
                 <div class="main-junk">
-                    <img src="./public/prod30.png.png" alt="prod30">
-                    <img src="./public/prod10.png.png" alt="prod10">
+                    <img src="./prod30.png.png" alt="prod30">
+                    <img src="./prod10.png.png" alt="prod10">
                 </div>
             </div>
         </div>
 
         <div class="bombom">
-            <img src="./public/next.png" alt="next">
+            <img src="./next.png" alt="next">
             </div>
     </div>
     </div>
@@ -452,23 +427,21 @@
     <!-- Header Row -->
      <div class="rewardb">
     <div class="d-flex justify-content-between align-items-center mb-3">
-      <div class="recently">
       <div>
         <h6 class="fw-bold text-uppercase m-0">YOUR RECENTLY VIEWED</h6>
       </div>
       <div>
         <a href="#" class="text-decoration-none view-all me-3">View All</a>
-        <img src="./public/div.arrows.png" alt="Toggle Button" class="toggle-btn" />
+        <img src="./div.arrows.png" alt="Toggle Button" class="toggle-btn" />
       </div>
     </div>
-  </div>
 
     <!-- Products Row (Flex Container) -->
     <div class="d-flex flex-row gap-3 justify-content-start align-items-stretch">
       <!-- Product Card 1 -->
       <div class="product-card position-relative">
         <span class="badge badge-new position-absolute">NEW</span>
-        <img src="./public/Link → prod58.png.png" alt="Xiamie Redmi 9 Sport" class="product-img" />
+        <img src="./Link → prod58.png.png" alt="Xiamie Redmi 9 Sport" class="product-img" />
         <div class="product-info">
           <p class="product-title">Xiamie Redmi 9 Sport <br/>Water Resistance Watch</p>
           <p class="price">$579.00</p>
@@ -477,7 +450,7 @@
 
       <!-- Product Card 2 -->
       <div class="product-card position-relative">
-        <img src="./public/Link → prod59.png.png" alt="Microsu Surface 2.0" class="product-img" />
+        <img src="./Link → prod59.png.png" alt="Microsu Surface 2.0" class="product-img" />
         <div class="product-info">
           <p class="product-title">Microsu Surface 2.0 <br/>Laptop</p>
           <p class="price">$979.00</p>
@@ -487,7 +460,7 @@
       <!-- Product Card 3 -->
       <div class="product-card position-relative">
         <span class="badge badge-save position-absolute">SAVE $20.00</span>
-        <img src="./public/Link → prod60.png.png" alt="aPod Pro Tablet 2023" class="product-img" />
+        <img src="./Link → prod60.png.png" alt="aPod Pro Tablet 2023" class="product-img" />
         <div class="product-info">
           <p class="product-title">
             aPod Pro Tablet 2023 LTE + WiFi,<br/>GPS Cellular 12.9 Inch, 512GB
@@ -499,7 +472,7 @@
       <!-- Product Card 4 -->
       <div class="product-card position-relative">
         <span class="badge badge-new position-absolute">NEW</span>
-        <img src="./public/Link → prod61.png.png" alt="SROK Smart Phone" class="product-img" />
+        <img src="./Link → prod61.png.png" alt="SROK Smart Phone" class="product-img" />
         <div class="product-info">
           <p class="product-title">SROK Smart Phone 128GB,<br/>Oled Retina</p>
           <p class="price">
@@ -512,165 +485,125 @@
      </div>
   </div>
 </div>
- 
-    </div>
 
-    <!-- FOOTER SECTION -->
-    <footer class="footer-section">
-      <div class="container footer-cont">
-        <div class="grid grid--footer">
-          <div class="logo-col">
-            <p href="#" class="footer-heading">
-              Swoo - 1st NYC tech online market
-            </p>
-
-            <address class="contacts">
-              <p class="hot">HOTLINE 24/7</p>
-              <p class="phone-no">(025) 3686 25 16</p>
-
-              <p class="address">
-                257 Thatcher Road St, Brooklyn, Manhattan,<br />
-                NY 10092
-              </p>
-              <p class="mail">contact@Swootechmart.com</p>
-            </address>
-
-            <div class="social-links">
-              <img src="public/footer-social.png" alt="" />
-              <img src="public/footer-social1.png" alt="" />
-              <img src="public/footer-social2.png" alt="" />
-              <img src="public/footer-social3.png" alt="" />
-              <img src="public/footer-social4.png" alt="" />
-            </div>
-          </div>
-          <nav class="nav-col">
-            <p class="footer-heading">TOP CATEGORIES</p>
-            <ul class="footer-nav">
-              <li>
-                <a class="footer-link" href="#">Laptop</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">PC & Computers</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Cell Phones</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Tablets</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Gaming and VR</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Networks</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Cameras</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Sounds</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Office</a>
-              </li>
-            </ul>
-          </nav>
-
-          <nav class="nav-col">
-            <p class="footer-heading">COMPANY</p>
-            <ul class="footer-nav">
-              <li>
-                <a class="footer-link" href="#">About Swoo</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Contact</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Career</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Blog</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Sitemap</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Store Location</a>
-              </li>
-            </ul>
-          </nav>
-          <nav class="nav-col">
-            <p class="footer-heading">HELP CENTER</p>
-            <ul class="footer-nav">
-              <li>
-                <a class="footer-link" href="#">Customer Service</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Policy</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Terms & conditions</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Track Order</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">FAQs</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">My Account</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Product Support</a>
-              </li>
-            </ul>
-          </nav>
-          <nav class="nav-col">
-            <p class="footer-heading">PARTNER</p>
-            <ul class="footer-nav">
-              <li>
-                <a class="footer-link" href="#">Become Seller</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Affiliate</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Advertise</a>
-              </li>
-              <li>
-                <a class="footer-link" href="#">Partnership</a>
-              </li>
-            </ul>
-          </nav>
+<!-- Footer Section -->
+<footer class="footer mt-5 pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+      <!-- Left Column -->
+       <div class="footer-main">
+        <div class="footer-mon">
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold text-uppercase">SWOO - 1ST NYC TECH ONLINE MARKET</h5>
+        <p class="hotline-label mb-1">Hotline 24/7</p>
+        <h2 class="hotline-number">(025) 3886 25 16</h2>
+        <p class="mb-1">237 Thacher Narco St Brooklyn, Manhattan, NY 1002</p>
+        <p class="mb-3">contact@swootechmart.com</p>
+        
+        <div class="socials-images">
+            <img src="./assets/Link.png" alt="Twitter">
+            <img src="./assets/Symbol.png" alt="facebook">
+            <img src="./assets/Link (1).png" alt="instagram">
+            <img src="./assets/Symbol (1).png" alt="youtube">
+            <img src="./assets/Symbol (2).png" alt="Thumbnail">
         </div>
 
-        <div class="news-letter">
-          <div class="select-cont">
-            <select class="foot-select" name="" id="">
-              <option value="">USD</option>
-            </select>
-            <select class="foot-select" name="" id="">
-              <option value="">
-                <img src="public/usa.png.png" alt="" />Eng
-              </option>
-            </select>
-          </div>
-          <div class="subscribe">
-            <p class="sub-txt">
-              subscribe & get <span>10% off</span> for your first order
-            </p>
-            <div class="input-cont">
-              <input
-                class="sub-input"
-                type="text"
-                placeholder="Enter your email address"
-              />
-              <a href="">SUBSCRIBE</a>
-            </div>
-            <div class="border"></div>
-          </div>
+        <div class="d-flex gap-3">
+          <span>USD <i class="fa fa-chevron-down"></i></span> |
+          <img src="https://cdn.vectorstock.com/i/1000v/53/98/usa-flag-circle-logo-vector-18915398.jpg" alt="usa-logo"
+                width="20">
+          <span>Eng <i class="fa fa-chevron-down"></i></span>
         </div>
       </div>
-    </footer>
-  </body>
+
+      <!-- Top Categories -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">TOP CATEGORIES</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Laptops</a></li>
+          <li><a href="#">Cell Phones</a></li>
+          <li><a href="#">Car & Computers</a></li>
+          <li><a href="#">Gaming & VR</a></li>
+          <li><a href="#">Cameras</a></li>
+          <li><a href="#">Networking</a></li>
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">COMPANY</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">About Swoo</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Store Locations</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Help Center -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">HELP CENTER</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Customer Service</a></li>
+          <li><a href="#">Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Product Support</a></li>
+        </ul>
+      </div>
+      <!-- partner -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">PARTNER</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Become Seller</a></li>
+          <li><a href="#">Affiliate</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">partnership</a></li>
+         
+        </ul>
+      </div>
+
+      
+    </div>
+   
+<!-- Subscribe -->
+<div class="col-md-3 mb-4">
+    <h6 class="fw-bold">SUBSCRIBE & GET 10% OFF FOR YOUR FIRST ORDER</h6>
+    <form class="subscribe-form mt-3">
+      <div class="mb-3">
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Enter your email address"
+          required
+        />
+      </div>
+      <button class="btn btn-dark w-100" type="submit">Subscribe</button>
+    </form>
+  </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom mt-4 pt-3 d-flex flex-column flex-md-row align-items-center justify-content-between">
+      <p class="mb-2 mb-md-0">
+        © 2024 Snaweana31. By purchasing, you accept our 
+        <a href="#" class="text-decoration-none">Policy</a>
+      </p>
+      <div class="payment-icons d-flex gap-3">
+        <img src="./pay1.png.png" alt="paypal" width="10"/>
+        <img src="./pay2.png.png" alt="mastercard" />
+        <img src="./pay3.png.png" alt="visa" />
+        <img src="./pay4.png.png" alt="stripe" />
+        <img src="./pay5.png.png" alt="klarna" />
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
