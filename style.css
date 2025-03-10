@@ -29,11 +29,11 @@ body {
   background-color: #1aba1a;
   padding: 0.8rem 2rem;
   border-radius: 1.2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2.4rem;
 }
 
 .container {
-  max-width: 115rem;
+  max-width: 130rem;
   margin: 0 auto;
   /* padding: 0 4.8rem; */
   /* width: 100%; */
@@ -47,6 +47,7 @@ body {
   align-items: center;
   justify-content: space-between;
   place-items: center;
+  margin-bottom: 1.8rem;
   /* background-color: #555; */
 }
 
@@ -142,7 +143,8 @@ body {
 }
 
 .search-txt {
-  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
   color: #fff;
 }
 
@@ -170,8 +172,108 @@ body {
   padding: 0 1.2rem;
 }
 
+/* HERO-SECTION */
+.grid {
+  display: grid;
+  gap: 1.8rem;
+}
+
+.hero-section {
+  grid-template-columns: 2fr 6fr 2fr;
+  margin-bottom: 2.4rem;
+}
+
+.sales-cont--1 {
+  /* border: 1px solid #1aba1a; */
+  border: none;
+  padding: 2.4rem 4.2rem;
+  background-color: #fff;
+  border-radius: 1.2rem;
+}
+
+.sales-head {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #f1352b;
+}
+
+.sales-txt {
+  font-size: 1.4rem;
+  color: #1c1c1c;
+  font-weight: 600;
+}
+
+.sales-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.sales-cont--2 {
+  /* background-image: url(public/headp.png); */
+  /* border: 1px solid #f1352b; */
+  grid-template-rows: 7fr 3fr;
+}
+
+.head-phones {
+  background-image: url(public/headp.png);
+  background-size: cover;
+  border-radius: 1.2rem;
+  padding: 2.4rem 4.2rem;
+  /* border: 1px solid yellow; */
+}
+
+.head-sub {
+  grid-template-columns: 1fr 1fr;
+  /* border: 1px solid orange; */
+}
+
+.head-sub--1 {
+  background-image: url(public/ps5.png);
+  background-size: cover;
+  padding: 2.4rem 4.2rem;
+  border-radius: 1.2rem;
+  max-height: 30vh;
+  /* width: 95%; */
+}
+
+.head-sub--2 {
+  background-image: url(public/keyboard.png);
+  padding: 2.4rem 4.2rem;
+  background-size: cover;
+  border-radius: 1.2rem;
+  max-height: 30vh;
+  /* width: 95%; */
+}
+
+.sales-cont--3 {
+  grid-template-rows: 1fr 1fr;
+}
+
+.cont-3 {
+  border-radius: 1.2rem;
+  padding: 2.4rem 4.2rem;
+  /* width: 90%; */
+}
+
+.watch {
+  background-image: url(public/watch.png);
+  background-size: cover;
+  /* background-size: contain no-repeat; */
+  background-position: center;
+}
+
+.cam {
+  background-image: url(public/cam.png);
+  background-size: cover;
+  /* background-size: contain no-repeat; */
+  background-position: center;
+}
+
 /* FOOTER SECTION */
 .footer-section {
+  padding: 2.4rem 4.2rem;
   background-color: #fff;
 }
 
