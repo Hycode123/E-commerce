@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #999999;
+}
+.section1-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    padding: 60px 0px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.section1{
+    padding: 20px 0px;
+   
+}
+.section1-form h1{
+font-size: 30px;
+color: #1ABA1A;
+}
+.section1-form p{
+    line-height: 40px;
+    font-size: 15px;
+    color: #999999;
+}
+.section1-form form label{
+    color: #000000;
+}
+.section1-form form{
+    line-height:30px ;
+}
+.section1-container img{
+    width:280px;
+    height: 260px;
+}
+.section1-container .login-img{
+    display: flex;
+    align-items: center;
+}
+.section1-form form input{
+    color: #CCCCCC;
+    padding: 5px 5px;
+    border-radius: 3px;
+    outline-style: none;
+    border: 1px solid #CCCCCC;
+}
+.section1-form button{
+    color: #FFFFFF;
+    background-color: #1ABA1A;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.section1-form p span{
+    color: #1ABA1A;
+}
+.section1-container .register-img{
+    display: flex;
+    align-items: center;
+}
+.input-container{
+    display: flex;
+    border: 1px solid #CCCCCC;
+    align-items: center;
+}
+
+form div .input-box{
+    border: none;
+} 
+.input-container{
+    width:300px;
+    border-radius:3px;
+    padding-right: 5px;
+}
+.fa-eye-slash{
+    color: #000000;
+}
+.input-box{
+    width: 300px;
+}
+
+
+
+
+
