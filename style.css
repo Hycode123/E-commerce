@@ -15,7 +15,7 @@ body {
   color: #555;
   font-weight: 400;
   overflow-x: hidden;
-  background-color: #f5f2f2;
+  background-color: #e7e7e7;
   margin: 0 auto;
 }
 
@@ -270,6 +270,7 @@ body {
   /* background-size: contain no-repeat; */
   background-position: center;
 }
+
 
 /* BRAND SECTION */
 .brands-section {
@@ -761,6 +762,7 @@ body {
   color: #1c1c1c;
   margin-bottom: 0.8rem;
 }
+
 
 /* FOOTER SECTION */
 .footer-section {
