@@ -733,24 +733,6 @@ body {
   padding: 2.8rem;
 }
 
-.mini {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  row-gap: 0.8rem;
-  /* justify-content: center; */
-}
-
-.mini-prod-cont {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: centers;
-}
-
-.mini-prod-img img {
-  width: 30%;
-}
-
 .laptop-head {
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -773,17 +755,6 @@ body {
 
 .laptop-price span {
   color: #1aba1a;
-}
-
-.cell-hero a:link,
-.cell-hero a:visited {
-  font-size: 1.4rem;
-  text-decoration: none;
-  color: #fff;
-  background-color: #1c1c1c;
-  padding: 0.8rem 1.6rem;
-  border-radius: 0.8rem;
-  /* margin-bottom: 6rem; */
 }
 
 .mini-txt h3 {
