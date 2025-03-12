@@ -87,7 +87,13 @@ body {
   gap: 2.4rem;
 }
 
-.nav-links {
+/* .nav-links:link,
+.nav-links:visited {
+  font-size: 1.4rem;
+} */
+
+.nav-links:link,
+.nav-links:visited {
   font-size: 1.6rem;
   font-weight: 500;
   text-decoration: none;
@@ -270,7 +276,6 @@ body {
   /* background-size: contain no-repeat; */
   background-position: center;
 }
-
 
 /* BRAND SECTION */
 .brands-section {
@@ -762,7 +767,6 @@ body {
   color: #1c1c1c;
   margin-bottom: 0.8rem;
 }
-
 
 /* FOOTER SECTION */
 .footer-section {
